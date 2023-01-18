@@ -6,7 +6,7 @@ import React from "react";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App font-open-sans min-h-screen flex flex-col justify-between">
       <Header />
       <Main />
       <Donaciones />
