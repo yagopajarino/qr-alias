@@ -7,10 +7,14 @@ import React from "react";
 export default function App() {
   return (
     <div className="App font-open-sans min-h-screen flex flex-col justify-between">
-      <Header />
-      <Main />
-      <Donaciones />
-      <Footer />
+      <div>
+        <Header />
+        <Main />
+      </div>
+      <div>
+        <Donaciones />
+        <Footer />
+      </div>
     </div>
   );
 }
