@@ -6,7 +6,7 @@ export default function Main() {
   const [alias, setAlias] = useState("");
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="w-full flex flex-col items-center overflow-hidden">
       <InputBox setAlias={setAlias} />
       <QR alias={alias} />
     </div>

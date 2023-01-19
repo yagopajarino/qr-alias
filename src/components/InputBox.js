@@ -21,7 +21,7 @@ export default function InputBox({ setAlias }) {
   }, []);
 
   return (
-    <div className="w-3/4">
+    <div className="w-full lg:w-3/4">
       <input
         type="text"
         placeholder={ph}
