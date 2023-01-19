@@ -21,13 +21,13 @@ export default function InputBox({ setAlias }) {
   }, []);
 
   return (
-    <div className="w-full lg:w-3/4">
+    <div className="w-full px-3 lg:px-0 lg:w-3/4">
       <input
         type="text"
         placeholder={ph}
         onSelect={(e) => (e.target.placeholder = "")}
         onChange={(e) => setAlias(e.target.value)}
-        className="w-full text-7xl text-center border-2 px-5 py-3 rounded-lg focus-visible:outline-3 focus-visible:outline-slate-300"
+        className="w-full text-3xl md:text-7xl text-center border-2 px-5 py-3 rounded-lg focus-visible:outline-3 focus-visible:outline-slate-300"
       ></input>
     </div>
   );

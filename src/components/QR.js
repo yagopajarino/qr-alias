@@ -19,7 +19,7 @@ export default function QR({ alias }) {
   }, [alias]);
 
   return (
-    <div className="flex items-center w-full justify-center">
+    <div className="flex flex-col md:flex-row items-center w-full justify-center">
       <img src={qr}></img>
       <a href={qrd} download={`${alias}-qr.png`}>
         <button className="py-4 px-8 bg-violet-300 rounded-lg shadow-sm mb-5 font-thin text-xl hover:bg-violet-400 transition-colors">
