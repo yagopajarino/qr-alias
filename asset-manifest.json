@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/qr-alias/static/css/main.f82be7e8.css",
-    "main.js": "/qr-alias/static/js/main.305f3246.js",
+    "main.css": "/qr-alias/static/css/main.23dc3ff8.css",
+    "main.js": "/qr-alias/static/js/main.65a920ba.js",
     "static/media/github-mark-white.svg": "/qr-alias/static/media/github-mark-white.3cdb1ae47f8c028447f8f9204e6b768e.svg",
-    "static/media/Twitter-logo.svg": "/qr-alias/static/media/Twitter-logo.60d1f7157820fe83123d6b7b6e807eeb.svg",
     "index.html": "/qr-alias/index.html",
-    "main.f82be7e8.css.map": "/qr-alias/static/css/main.f82be7e8.css.map",
-    "main.305f3246.js.map": "/qr-alias/static/js/main.305f3246.js.map"
+    "static/media/Twitter-logo.svg": "/qr-alias/static/media/Twitter-logo.60d1f7157820fe83123d6b7b6e807eeb.svg",
+    "main.23dc3ff8.css.map": "/qr-alias/static/css/main.23dc3ff8.css.map",
+    "main.65a920ba.js.map": "/qr-alias/static/js/main.65a920ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.f82be7e8.css",
-    "static/js/main.305f3246.js"
+    "static/css/main.23dc3ff8.css",
+    "static/js/main.65a920ba.js"
   ]
 }
